@@ -26,10 +26,10 @@ def read_document(doc_id: str = Field(description="Id of the document to read"))
     
     return docs[doc_id]
     
-# TODO: Write a tool to edit a doc
+
 
 @mcp.tool(
-    name="edit_document"
+    name="edit_document",
     description=" Edit a document by replacing the description"
 )
 
